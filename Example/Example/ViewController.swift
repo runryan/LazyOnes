@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         LazyOnes().haha()
+        UIColor.kaixin()
     }
 
     override func didReceiveMemoryWarning() {
