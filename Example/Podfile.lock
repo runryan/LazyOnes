@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.7.2)
+  - BigInt (3.0.1):
+    - SipHash (~> 1.2)
+  - CryptoSwift (0.9.0)
+  - LazyOnes (0.1.0):
+    - Alamofire
+    - TrustKeystore (~> 0.4.0)
+  - SipHash (1.2.0)
+  - TrezorCrypto (0.0.5)
+  - TrustCore (0.0.7):
+    - BigInt
+    - TrezorCrypto
+  - TrustKeystore (0.4.0):
+    - BigInt
+    - CryptoSwift
+    - TrezorCrypto
+    - TrustCore
+
+DEPENDENCIES:
+  - LazyOnes (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BigInt
+    - CryptoSwift
+    - SipHash
+    - TrezorCrypto
+    - TrustCore
+    - TrustKeystore
+
+EXTERNAL SOURCES:
+  LazyOnes:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  BigInt: 8e8a52161c745cd3ab78e3dc346a9fbee51e6cf6
+  CryptoSwift: bca8c5b653dcc2d9734409242a070ff53bafac86
+  LazyOnes: 8fb7d15cdc7ab86aade5b196a2acf1efbdbddcdf
+  SipHash: c6e9e43e9c531b5bc6602545130c26194a6d31ce
+  TrezorCrypto: ecef681446bf02af6248d3b5e394026d7e766e56
+  TrustCore: 688df9a241008cf9cfa3842ec8ef28777a8b7534
+  TrustKeystore: 1bd016c67de7314e84b79dba2c22ef64b86bb63e
+
+PODFILE CHECKSUM: a944e091ba2276bf7a3c6f6b77e9160c81efafc8
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,6 @@
+framework module LazyOnes {
+  umbrella header "LazyOnes-umbrella.h"
+
+  export *
+  module * { export * }
+}
