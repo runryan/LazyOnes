@@ -10,6 +10,7 @@
 		94EAEDCD20AAC35600DB84C5 /* LazyOnes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EAEDC320AAC35500DB84C5 /* LazyOnes.framework */; };
 		94EAEDD220AAC35600DB84C5 /* LazyOnesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAEDD120AAC35600DB84C5 /* LazyOnesTests.swift */; };
 		94EAEDD420AAC35600DB84C5 /* LazyOnes.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EAEDC620AAC35500DB84C5 /* LazyOnes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94EAEDDE20AAC6C900DB84C5 /* Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAEDDD20AAC6C900DB84C5 /* Lazy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		94EAEDCC20AAC35600DB84C5 /* LazyOnesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyOnesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EAEDD120AAC35600DB84C5 /* LazyOnesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyOnesTests.swift; sourceTree = "<group>"; };
 		94EAEDD320AAC35600DB84C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94EAEDDD20AAC6C900DB84C5 /* Lazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				94EAEDC620AAC35500DB84C5 /* LazyOnes.h */,
 				94EAEDC720AAC35600DB84C5 /* Info.plist */,
+				94EAEDDD20AAC6C900DB84C5 /* Lazy.swift */,
 			);
 			path = LazyOnes;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					94EAEDC220AAC35500DB84C5 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
 					};
 					94EAEDCB20AAC35600DB84C5 = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94EAEDDE20AAC6C900DB84C5 /* Lazy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +344,7 @@
 		94EAEDD820AAC35600DB84C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lifebank.io.LazyOnes;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +371,7 @@
 		94EAEDD920AAC35600DB84C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +397,7 @@
 		94EAEDDB20AAC35600DB84C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6JZWH9HXH;
 				INFOPLIST_FILE = LazyOnesTests/Info.plist;
@@ -407,6 +416,7 @@
 		94EAEDDC20AAC35600DB84C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6JZWH9HXH;
 				INFOPLIST_FILE = LazyOnesTests/Info.plist;
