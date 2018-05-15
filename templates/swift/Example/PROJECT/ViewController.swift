@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  PROJECT
+//  LazyOnes
 //
-//  Created by PROJECT_OWNER on TODAYS_DATE.
-//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
+//  Created by runryan on 05/15/2018.
+//  Copyright (c) 2018 runryan. All rights reserved.
 //
 
 import UIKit
