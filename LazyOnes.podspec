@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LazyOnes'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'For ryan only for now. do not use this lib.'
 
 # This description is used to generate tags and improve search results.
