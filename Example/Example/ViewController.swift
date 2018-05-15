@@ -7,13 +7,14 @@
 //
 
 import UIKit
+import LazyOnes
 
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        LazyOnes().haha()
     }
 
     override func didReceiveMemoryWarning() {
